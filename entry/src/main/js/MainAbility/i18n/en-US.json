@@ -1,0 +1,14 @@
+{
+  "strings": {
+    "appName": "Word Wonders",
+    "word": "WORD",
+    "wonders": "WONDERS",
+    "tapToStart": "Tap to start",
+    "level": "LEVEL",
+    "congratulations": "CONGRATULATIONS!",
+    "completed": "Completed",
+    "next": "NEXT",
+    "menu": "MENU",
+    "back": "←"
+  }
+}

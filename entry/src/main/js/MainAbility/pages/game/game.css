@@ -1,0 +1,21 @@
+@import '../../common/style/base.css';
+
+.container
+
+.canvas {
+    align-content: center;
+    background-color: #22000000;
+}
+
+.shuffle-btn {
+    object-fit: cover;
+}
+
+.hint-btn {
+    object-fit: cover;
+}
+
+.hint-txt {
+    text-align: center;
+    text-valign: top;
+}

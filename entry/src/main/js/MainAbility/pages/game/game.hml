@@ -1,0 +1,19 @@
+<stack class="container">
+    <canvas class="canvas" id="game-canvas" ref="gameCanvas"
+            style="width: {{ canvasWidth }}; height: {{ canvasHeight }};"
+            ontouchmove="onTouchMove" ontouchstart="onTouchStart" ontouchend="onTouchEnd" onlongpress="onLongPress"
+            ontouchcancel="onTouchCancel" onclick="onClick">
+    </canvas>
+    <image class="shuffle-btn" src="../../common/assets/mix_button.png"
+           style="object-position: absolute; left: {{ shufflePos.x }};
+                   top: {{ shufflePos.y }}; width: {{ shuffleSize.width }}; height: {{ shuffleSize.height }};"
+           onclick="onShuffleClicked">
+    </image>
+    <image class="hint-btn" src="../../common/assets/hint_button.png"
+           style="object-position: absolute; left: {{ hintPos.x }};
+                   top: {{ hintPos.y }}; width: {{ hintSize.width }}; height: {{ hintSize.height }};"
+           onclick="onHintClicked">
+    </image>
+    <text class="hint-txt" style="object-position: absolute; left: {{ hintPos.x }};
+            top: {{ hintPos.y }}; width: {{ hintSize.width }}; height: {{ hintSize.height }};">{{ hintsLeft }}</text>
+</stack>

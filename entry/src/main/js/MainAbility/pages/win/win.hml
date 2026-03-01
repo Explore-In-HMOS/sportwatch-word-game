@@ -1,0 +1,18 @@
+<div class="container">
+    <text class="congrats">CONGRATULATIONS!</text>
+    <div class="stars">
+        <text class="star" style="font-size: {{ starFontSize }} px;">★</text>
+        <text class="star" style="font-size: {{ starFontSize }} px;">★</text>
+        <text class="star" style="font-size: {{ starFontSize }} px;">★</text>
+    </div>
+    <text class="level-text">Level {{ levelId }}</text>
+    <text class="completed-text">Completed</text>
+    <div class="next-btn" onclick="nextLevel">
+        <text class="next-text">{{ nextText }}</text>
+    </div>
+    <div class="menu-btn" onclick="goMenu">
+        <text class="menu-text">MENU</text>
+    </div>
+    <progress type="horizontal" class="progress" percent="{{ progress }}" style="height: 10%; width: 40%;">
+    </progress>
+</div>

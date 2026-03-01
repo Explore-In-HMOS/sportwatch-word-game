@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Word Wonders - English Word Puzzle Game"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "World of Wonders Lite Wearable"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "Word Wonders"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<div class="container" onclick="goPlay">
+    <text class="title">WORD</text>
+    <text class="subtitle">GAME</text>
+    <image class="logo" src="/common/assets/logo.png"></image>
+    <text class="hint">Tap to start</text>
+</div>
